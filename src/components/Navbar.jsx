@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 function Navbar() {
   return (
     <div className="navbar bg-base-300 shadow-md">
@@ -25,7 +27,7 @@ function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <a>Club Information</a>
@@ -40,12 +42,12 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">FRCC Outdoor Club</a>
+        <Link className="btn btn-ghost text-xl">FRCC Outdoor Club</Link>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <details>
