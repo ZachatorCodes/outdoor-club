@@ -33,7 +33,7 @@ function Navbar() {
               <a>Club Information</a>
               <ul className="p-2">
                 <li>
-                  <a>About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
                   <a>Leadership</a>
@@ -54,7 +54,7 @@ function Navbar() {
               <summary>Club Information</summary>
               <ul className="p-2">
                 <li>
-                  <a>About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
                   <a>Leadership</a>
