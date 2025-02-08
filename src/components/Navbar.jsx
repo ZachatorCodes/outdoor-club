@@ -33,7 +33,7 @@ function Navbar() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <a>Leadership</a>
+              <Link to="/leadership">Leadership</Link>
             </li>
           </ul>
         </div>
@@ -49,7 +49,7 @@ function Navbar() {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <a>Leadership</a>
+            <Link to="/leadership">Leadership</Link>
           </li>
         </ul>
       </div>
