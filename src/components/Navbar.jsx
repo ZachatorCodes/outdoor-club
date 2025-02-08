@@ -37,7 +37,9 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <Link className="btn btn-ghost text-xl">FRCC Outdoor Club</Link>
+        <Link to="/" className="btn btn-ghost text-xl">
+          FRCC Outdoor Club
+        </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
