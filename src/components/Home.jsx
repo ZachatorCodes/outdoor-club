@@ -1,6 +1,5 @@
 function Home() {
   return (
-    <>
       <div className="flex justify-center items-center">
         <div className="flex flex-col justify-center items-center bg-[url(/mountain-image.jpg)] bg-cover bg-center w-full h-auto">
           <img src={'/oc-logo.png'} className="h-100 w-auto p-10"/>
@@ -10,7 +9,6 @@ function Home() {
           </div>
         </div>
       </div>
-    </>
   );
 }
 
