@@ -35,6 +35,9 @@ function Navbar() {
             <li>
               <Link to="/leadership">Leadership</Link>
             </li>
+            <li>
+              <Link to="/trips">Trips</Link>
+            </li>
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost text-xl">
@@ -52,6 +55,9 @@ function Navbar() {
           </li>
           <li>
             <Link to="/leadership">Leadership</Link>
+          </li>
+          <li>
+            <Link to="/trips">Trips</Link>
           </li>
         </ul>
       </div>
