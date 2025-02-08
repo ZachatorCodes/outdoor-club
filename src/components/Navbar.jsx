@@ -30,15 +30,10 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a>Club Information</a>
-              <ul className="p-2">
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <a>Leadership</a>
-                </li>
-              </ul>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <a>Leadership</a>
             </li>
           </ul>
         </div>
@@ -49,18 +44,12 @@ function Navbar() {
           <li>
             <Link to="/">Home</Link>
           </li>
+
           <li>
-            <details>
-              <summary>Club Information</summary>
-              <ul className="p-2">
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <a>Leadership</a>
-                </li>
-              </ul>
-            </details>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <a>Leadership</a>
           </li>
         </ul>
       </div>
