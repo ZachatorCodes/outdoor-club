@@ -1,4 +1,15 @@
+import { useEffect, useState } from "react";
+
 function Home() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    fetch('/api/hello').then(r => r.json()).then(data => {
+      console.log(data)
+      setCount(data.count)
+    })
+  }, [])
+
   return (
       <div className="flex justify-center items-center">
         <div className="flex flex-col justify-center items-center bg-[url(/mountain-image.jpg)] bg-cover bg-center w-full h-auto">
@@ -8,6 +19,7 @@ function Home() {
             <p className="text-xl text-center mt-3"><i>The</i> Front Range Community College club for thoses who love the outdoors.</p>
           </div>
         </div>
+        <h1 className="text-center text-5xl">{count}</h1>
       </div>
   );
 }
