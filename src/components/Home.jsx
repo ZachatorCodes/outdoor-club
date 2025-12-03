@@ -19,7 +19,6 @@ function Home() {
             <p className="text-xl text-center mt-3"><i>The</i> Front Range Community College club for thoses who love the outdoors.</p>
           </div>
         </div>
-        <h1 className="text-center text-5xl">{count}</h1>
       </div>
   );
 }
