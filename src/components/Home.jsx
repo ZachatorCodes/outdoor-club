@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import logo from "/oc-logo.png"
+import mtn from "/mountain-image.jpg"
 
 function Home() {
   const [count, setCount] = useState(0);
